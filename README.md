@@ -42,10 +42,26 @@ Advanced network blocking tool that selectively restricts Altium Designer's inte
 
 ## Usage
 
-```powershell
-# Run as Administrator
-.\AltiumDesignerBlocker.ps1
-```
+### Step-by-Step Instructions
+
+1. Open PowerShell as Administrator
+   - Right-click on PowerShell
+   - Select "Run as Administrator"
+
+2. Navigate to script directory
+   ```powershell
+   cd C:\path\to\script\directory
+   ```
+
+3. Set execution policy for current session
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+   ```
+
+4. Run the script
+   ```powershell
+   .\AltiumDesignerBlocker.ps1
+   ```
 
 Select operation mode from interactive menu:
 1. Block Mode - Apply selective blocking rules
