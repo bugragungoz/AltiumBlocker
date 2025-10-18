@@ -1,6 +1,6 @@
 # Altium Designer Blocker
 
-PowerShell script for selective network blocking of Altium Designer while preserving Component Search and Login functionality.
+PowerShell script for selective network blocking of Altium Designer applications and services while preserving Component Search and Login functionality.
 
 ## Overview
 
@@ -34,19 +34,9 @@ Advanced network blocking tool that selectively restricts Altium Designer's inte
 - Usage tracking
 - Marketing communications
 
-## Requirements
-
-- Windows 10/11
-- PowerShell 5.1 or later
-- Administrator privileges
-
 ## Usage
 
-### Step-by-Step Instructions
-
 1. Open PowerShell as Administrator
-   - Right-click on PowerShell
-   - Select "Run as Administrator"
 
 2. Navigate to script directory
    ```powershell
