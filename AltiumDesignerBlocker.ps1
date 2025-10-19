@@ -979,9 +979,9 @@ Domains Blocked:      $($script:Statistics.DomainsBlocked)
 Services Found:       $($script:Statistics.ServicesFound)
 
 SPECIAL MODE:
-Component Search:     PRESERVED ✓
-Login Functionality:  PRESERVED ✓
-Part Search:          PRESERVED ✓
+Component Search:     PRESERVED
+Login Functionality:  PRESERVED
+Part Search:          PRESERVED
 
 File Locations:
 ---------------
